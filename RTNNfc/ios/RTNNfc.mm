@@ -4,7 +4,7 @@
 @implementation RTNNfc
 
 RCT_EXPORT_MODULE()
-
+//todo
 - (void)add:(double)a b:(double)b resolve:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject {
     NSNumber *result = [[NSNumber alloc] initWithInteger:a+b];
     resolve(result);
